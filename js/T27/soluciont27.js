@@ -20,7 +20,7 @@ function sumarenlaces(){
             var temp_enlaces = enlaces;
             totalenlaces=parseInt(temp_enlaces.length);
             tempresult= totalenlaces+tempresult; 
-            alert("Enlaces encontrados :  "+totalfinal);
+            alert("Sumatoria enlaces por parrafos encontrados :  "+totalfinal);
         }
 }
 
