@@ -1,0 +1,12 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    position: relative;
+    left: 0%;
+    border-radius: 4px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
