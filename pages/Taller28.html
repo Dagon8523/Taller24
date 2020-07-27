@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <script src="../js/moment.js"></script>
     <link rel="stylesheet" href="../css/estilo.css" type="text/css">
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -20,9 +20,9 @@
         var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['Cali', 'Bogota', 'Medellin', 'Barranquilla', 'Cartagena', 'Pasto'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Cantidad ciudades',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(00, 00, 00, 0.2)',
@@ -55,11 +55,15 @@
 });
 
     </script>
-<div class="fecha">
-    <p>
-        
-    </p>
-</div>
+
+   <div class="fecha">
+    <script>
+        var a= moment("1985-10-23").format("dddd"+" "+"DD"+" "+"OF"+" "+"MMMM"+" "+"YYYY");   
+        console.log(a.toString());
+        document.write(a);
+    </script>
+   </div>
+
 
     
 </body>
